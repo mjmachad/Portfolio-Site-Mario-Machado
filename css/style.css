@@ -5,16 +5,81 @@ blue	#1352a1	(19,82,161)
 yellow	#fed364	(254,211,100)
 red	#fa6964	(250,105,100)
 */
+/*Changes to the Heading and Index Page*/
+*{ box-sizing: border-box
+}
+.container {
+  padding: 0 20px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+.LogoM {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 125px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav > ul > li > a:visited {
+  color: #fa6964;
+}
+nav > ul > li > a:hover {
+  color: #cc6540;
+  text-decoration: underline;
+}
+nav > ul > li > a:active {
+  color: #994c30;
+}
+#me {
+ background-color: #333332;
+ text-align: center;
+ padding: 15px 0;
+ -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+ -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+ box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+ position: fixed;
+ width: 100%
+}
+#hero {
+  background-color: #eff0ed;
+  padding top: : 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#hero{
+  padding-top: 220px;
+}
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+  text-align: center;
+}
+#work h2{
+  text-align: left;
+}
+/*Font Guidelines to the Body*/
 body {
   background-color: #eff0ed;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
+  font-size: 18px; /* Sets the font size to 16px */
   font-weight: 500; /* Sets the font weight to 500 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #333332;
-
 }
-
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -27,6 +92,9 @@ h2 {
   font-size: 2.25em;
   font-weight: 700;
 }
+h2 {
+  text-align: center;
+}
 
 h3 {
   font-size: 1.75em;
@@ -38,6 +106,7 @@ h4 {
 }
 img {
   width: 100%;
+  height: auto;
 }
 a {
   color: #fa6964;
@@ -82,3 +151,93 @@ a:focus {
   background-color: #fa6964;
   color: #ffffff;
 }
+
+
+/* Layour Styling to Vela */
+
+#vela1{
+  padding-top: 220px;
+  display: inline-block;
+  width: 100%;
+  background-color: #1352a1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; /* Sets the font size to 16px */
+  font-weight: 500; /* Sets the font weight to 500 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #ffffff;
+}
+#vela{
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #1352a1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; /* Sets the font size to 16px */
+  font-weight: 500; /* Sets the font weight to 500 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #ffffff;
+}
+#vela1, #vela h1{
+  text-align: center;
+}
+#vela h2{text-align: left;
+}
+/* Layout for Lingo and You */
+
+#lingo1{
+  padding-top: 200px;
+}
+
+#lingo{
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #eff0ed;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; /* Sets the font size to 16px */
+  font-weight: 500; /* Sets the font weight to 500 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #333332;
+}
+#lingo h1{
+  text-align: center;
+}
+#lingo h2{text-align: center;
+}
+#lingo .row{clear:both}
+
+#lingo .column{
+    width: 50%;
+    float: left;
+}
+
+/* Layout for About Page*/
+
+#about{
+  padding-top: 220px;
+}
+
+#about{
+  display: inline-block;
+  width: 100%;
+  background-color: #eff0ed;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; /* Sets the font size to 16px */
+  font-weight: 500; /* Sets the font weight to 500 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #333332;
+}
+
+#about h1{
+  text-align: center;
+}
+#about h2{ text-align: left;}
+#about .row{clear:both}
+
+#about .column{
+    width: 50%;
+    float: left;
+}
+
+
+/* Layout Styling for Footer*/
