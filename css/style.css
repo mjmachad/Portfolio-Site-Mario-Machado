@@ -177,6 +177,9 @@ a:focus {
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #ffffff;
 }
+#vela1 p{
+  text-align: left;
+}
 #vela1, #vela h1{
   text-align: center;
 }
