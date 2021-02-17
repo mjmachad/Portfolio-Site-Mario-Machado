@@ -12,7 +12,7 @@ red	#fa6964	(250,105,100)
   padding: 0 20px;
 }
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 15px 0; /* 25px top and bottom, 0 left and right */
 }
 .LogoM {
   display: block;
@@ -55,7 +55,7 @@ nav > ul > li > a:active {
 }
 #hero {
   background-color: #eff0ed;
-  padding top: : 20px 0;
+  padding-top: 20px 0;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -68,7 +68,7 @@ nav > ul > li > a:active {
   padding: 0.67em 0;
   text-align: center;
 }
-#work h2{
+#project1 h2{
   text-align: left;
 }
 /*Font Guidelines to the Body*/
@@ -235,12 +235,5 @@ a:focus {
   text-align: center;
 }
 #about h2{ text-align: left;}
-#about .row{clear:both}
-
-#about .column{
-    width: 50%;
-    float: left;
-}
-
 
 /* Layout Styling for Footer*/
