@@ -73,13 +73,16 @@ nav > ul > li > a:active {
 #project1 h2{
   text-align: center;
 }
-#project2 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
 #hero .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+#project2 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+#project3 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+#project1 .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
 /*Font Guidelines to the Body*/
 body {
   background-color: #eff0ed;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
+  font-size: 18px; /* Sets the font size to 16px */
   font-weight: 500; /* Sets the font weight to 500 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #333332;
@@ -153,8 +156,10 @@ a:focus {
   background-color: #fa6964;
   color: #ffffff;
 }
-<<<<<<< Updated upstream
-=======
+
+#icon {
+  align-items: baseline;
+}
 
 @keyframes color-change {
   from {fill: #edc655;}
@@ -210,6 +215,7 @@ a:focus {
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #ffffff;
 }
+
 #vela1 p{
   text-align: left;
 }
@@ -240,17 +246,12 @@ a:focus {
 }
 #lingo h2{text-align: center;
 }
-#lingo .row{clear:both}
 
-#lingo .column{
-    width: 50%;
-    float: left;
-}
 
 /* Layout for About Page*/
 
 #about{
-  padding-top: 220px;
+  padding-top: 200px;
 }
 
 #about{
@@ -270,6 +271,10 @@ a:focus {
 #about h2{ text-align: left;}
 
 /* Layout Styling for Footer*/
+
+#contact h2 {
+  text-align: center;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -293,12 +298,7 @@ nav {
   }
 [class*="col-"] {
   float: left;
-  margin-right: 8px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+  margin-right: 10px;
 }
 
 #about h3{
@@ -309,6 +309,13 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 }
+.LogoM {
+  display: inherit;
+  margin-left: 20px;
+  margin-right: auto;
+  float: left;
+  max-width: 125px;
+}
 .col-md-5 {
     width: 41.66%;
   }
@@ -317,7 +324,7 @@ Large devices (1024px or larger)
     }
 [class*="col-"] {
       float: left;
-      margin-right: 8px;
+      margin-right: 10px;
     }
 .row::after {
       content: "";
