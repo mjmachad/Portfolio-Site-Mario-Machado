@@ -3,170 +3,176 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Vela</title>
+  <title>Mario Machado UX Designer</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
   <header>
     <div id="me">
       <div class="container">
-        <picture>
-          <source srcset="img/Logo.png" media="(max-width:250px)">
-          <img class="LogoM" src="img/Logo.png" alt="Mario macahdo">
-        </picture>
-        <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="navtoggle" id="myNavtoggle">
+          <picture>
+            <source srcset="img/Logo.png" media="(max-width:1200px)">
+            <img class="LogoM" src="img/Logo.png" alt="Mario macahdo">
+          </picture>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="myfunction()">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="myfunction()"> <i class="fas fa-bars"> </i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </header>
 
-    <div id="vela1">
-      <div class="container">
-        <h1>Vela</h1>
+  <div id="vela1">
+    <div class="container">
+      <h1>Vela</h1>
+      <p>
+        Vela is an app concept that I designed during a 400 - hour UX Design course with Career Foundry. The goal was to identify functionalities and needs that were not found in the existing market. This was achieved through research, testing and
+        designing. In this project I utilized my new found skills from Lingo & You and improved up them. Creating mockups, prototyping, usability testing and design refinement.
+      </p>
+    </div>
+  </div>
+
+  <div id="vela">
+    <div class="container">
+      <div>
+        <h1>My Process</h1>
+        <h2>Research</h2>
         <p>
-          Vela is an app concept that I designed during a 400 - hour UX Design course with Career Foundry. The goal was to identify functionalities and needs that were not found in the existing market. This was achieved through research, testing and
-          designing. In this project I utilized my new found skills from Lingo & You and improved up them. Creating mockups, prototyping, usability testing and design refinement.
+          During the initial stages of research I discovered other forecasting apps did not provide any information for hazardous conditions. One of my goals was to create a section in the app to provide users information about specific conditions.
+          (Weather, Animal Sightings, Lifeguard on Duty)
+          I hypothesized that by updating the app with safety conditions, it will inform the public ahead of time and keep them safe on their day out on the beach.
+        </p>
+        <p>
+          Once I identified areas that could be improved on based on market research I developed a hypothesis. Next it was time to interview users to gain more information. (For a list of the questions asked in the preliminary interviews <a
+            href="files/sq.pdf" download>Click Here</a>)
+          After conducting interviews with both surfing enthusiasts and everyday individuals stuck in the city, I was able to create user flows and personas to bring our ideal users to life.
+        </p>
+        <picture>
+          <source srcset="img/vela/vela1.png" media="(max-width:767px)">
+          <img src="img/vela/vela1.png" alt="Sam Persona">
+        </picture>
+        <picture>
+          <source srcset="img/vela/vela2.png" media="(max-width:767px)">
+          <img src="img/vela/vela2.png" alt="Sam Flow">
+        </picture>
+        <picture>
+          <source srcset="img/vela/vela4.png" media="(max-width:767px)">
+          <img src="img/vela/vela4.png" alt="Gretchen Persona">
+        </picture>
+        <picture>
+          <source srcset="img/vela/vela3.png" media="(max-width:767px)">
+          <img src="img/vela/vela3.png" alt="Gretchen Flow">
+        </picture>
+        <h2>Ideation</h2>
+        <p>
+          Before I could begin drafting an early design more research was done in the form of card sorting to understand how everyday users would categorize Vela's content. Card sorting was completed digitally using Optimal Sort. The image below
+          helped pave the way for the first low fidelity prototypes.
+        </p>
+        <picture>
+          <source srcset="img/vela/vela17.png" media="(max-width:767px)">
+          <img src="img/vela/vela17.png" alt="SiteMap">
+        </picture>
+        <h2>Wireframes</h2>
+        <p>
+          From the user flow and site map created above, low fidelity prototypes were developed to help capture how a user would go about achieving those desired goals with Vela. Below are some early mock ups of Vela.
+        </p>
+        <picture>
+          <source srcset="img/vela/vela5.png" media="(max-width:767px)">
+          <img src="img/vela/vela5.png" alt="Early Mockup">
+        </picture>
+        <p>
+          This draft was later brought to life using Adobe XD. Shapes and grids were outlined to determine where information would be placed later on.
+        </p>
+        <picture>
+          <source srcset="img/vela/vela18.png" media="(max-width:767px)">
+          <img src="img/vela/vela18.png" alt="Mid Fidelity">
+        </picture>
+        <h2>Testing</h2>
+        <p>
+          Once the framework of the app was developed, user testing was conducted to evaluate how well participants could complete the tasks I asked of them. The testing process consisted of gathering the participants thoughts and feelings on the
+          early stages of the design, and how simple each task could be to complete (To view the test script and questions <a href="files/uts.pdf" download>Click Here</a>.)
+          These were some of the screens that were assessed throughout the usability test. The focus was on the content and flow of the screens and not the overall aesthetic of the app.
+        </p>
+        <picture>
+          <source srcset="img/vela/vela19.png" media="(max-width:767px)">
+          <img src="img/vela/vela19.png" alt="Test">
+        </picture>
+        <p>
+          Over the course of usability testing the users thoughts and feelings were recorded on a sticky note and placed on a white board. Simlar thougths and quotes were groped together to organize the information using affinity mapping.
+        </p>
+        <picture>
+          <source srcset="img/vela/vela7.jpg" media="(max-width:767px)">
+          <img src="img/vela/vela7.jpg" alt="affinity">
+        </picture>
+        <p>
+          With the affinity mapping complete the most grouped statements were broken into categories and put in an excel sheet where they would be scored.
+        </p>
+        <picture>
+          <source srcset="img/vela/vela16.png" media="(max-width:767px)">
+          <img src="img/vela/vela16.png" alt="results">
+        </picture>
+        <h2>Refine the Design</h2>
+        <p>
+          With the user testing complete it was time to review the feedback and bring the app to life by creating a beautiful user interface. One of the more important design choices was adding shadows to make the content pop from the background.
+        </p>
+        <picture>
+          <source srcset="img/vela/vela20.png" media="(max-width:767px)">
+          <img src="img/vela/vela20.png" alt="final">
+        </picture>
+        <h1><a href="https://xd.adobe.com/view/cd353a54-266b-4d3d-b54b-f9256f8fb273-9866/" target="_blank">Try it Yourself</a></h1>
+        <h2>Conclusion</h2>
+        <p>
+          After spending countless months working on this app one of the most valuable lessons I learned from this process was to value the feedback from my users and not to take advantage of the low and mid fidelity prototypes. There were stages
+          where I had to iterate new design concepts later on in the project which was frustrating and time consuming. Also for future projects I will also look to analyze more than two competitors to get a feel of the overall market.
         </p>
       </div>
     </div>
+  </div>
 
-    <div id="vela">
-      <div class="container">
-        <div>
-          <h1>My Process</h1>
-          <h2>Research</h2>
-          <p>
-            During the initial stages of research I discovered other forecasting apps did not provide any information for hazardous conditions. One of my goals was to create a section in the app to provide users information about specific conditions.
-            (Weather, Animal Sightings, Lifeguard on Duty)
-            I hypothesized that by updating the app with safety conditions, it will inform the public ahead of time and keep them safe on their day out on the beach.
-          </p>
-          <p>
-            Once I identified areas that could be improved on based on market research I developed a hypothesis. Next it was time to interview users to gain more information. (For a list of the questions asked in the preliminary interviews <a
-              href="files/sq.pdf" download>Click Here</a>)
-            After conducting interviews with both surfing enthusiasts and everyday individuals stuck in the city, I was able to create user flows and personas to bring our ideal users to life.
-          </p>
-            <picture>
-                <source srcset="img/vela/vela1.png" media="(max-width:767px)">
-                <img src="img/vela/vela1.png" alt="Sam Persona">
-            </picture>
-            <picture>
-                <source srcset="img/vela/vela2.png" media="(max-width:767px)">
-                <img src="img/vela/vela2.png" alt="Sam Flow">
-            </picture>
-            <picture>
-                <source srcset="img/vela/vela4.png" media="(max-width:767px)">
-                <img src="img/vela/vela4.png" alt="Gretchen Persona">
-            </picture>
-            <picture>
-                <source srcset="img/vela/vela3.png" media="(max-width:767px)">
-                <img src="img/vela/vela3.png" alt="Gretchen Flow">
-            </picture>
-          <h2>Ideation</h2>
-          <p>
-            Before I could begin drafting an early design more research was done in the form of card sorting to understand how everyday users would categorize Vela's content. Card sorting was completed digitally using Optimal Sort. The image below
-            helped pave the way for the first low fidelity prototypes.
-          </p>
-          <picture>
-            <source srcset="img/vela/vela17.png" media="(max-width:767px)">
-            <img src="img/vela/vela17.png" alt="SiteMap">
-          </picture>
-          <h2>Wireframes</h2>
-          <p>
-            From the user flow and site map created above, low fidelity prototypes were developed to help capture how a user would go about achieving those desired goals with Vela. Below are some early mock ups of Vela.
-          </p>
-          <picture>
-            <source srcset="img/vela/vela5.png" media="(max-width:767px)">
-            <img src="img/vela/vela5.png" alt="Early Mockup">
-          </picture>
-          <p>
-            This draft was later brought to life using Adobe XD. Shapes and grids were outlined to determine where information would be placed later on.
-          </p>
-          <picture>
-            <source srcset="img/vela/vela18.png" media="(max-width:767px)">
-            <img src="img/vela/vela18.png" alt="Mid Fidelity">
-          </picture>
-          <h2>Testing</h2>
-          <p>
-            Once the framework of the app was developed, user testing was conducted to evaluate how well participants could complete the tasks I asked of them. The testing process consisted of gathering the participants thoughts and feelings on the
-            early stages of the design, and how simple each task could be to complete (To view the test script and questions <a href="files/uts.pdf" download>Click Here</a>.)
-            These were some of the screens that were assessed throughout the usability test. The focus was on the content and flow of the screens and not the overall aesthetic of the app.
-          </p>
-          <picture>
-            <source srcset="img/vela/vela19.png" media="(max-width:767px)">
-            <img src="img/vela/vela19.png" alt="Test">
-          </picture>
-          <p>
-            Over the course of usability testing the users thoughts and feelings were recorded on a sticky note and placed on a white board. Simlar thougths and quotes were groped together to organize the information using affinity mapping.
-          </p>
-          <picture>
-            <source srcset="img/vela/vela7.jpg" media="(max-width:767px)">
-            <img src="img/vela/vela7.jpg" alt="affinity">
-          </picture>
-          <p>
-            With the affinity mapping complete the most grouped statements were broken into categories and put in an excel sheet where they would be scored.
-          </p>
-          <picture>
-            <source srcset="img/vela/vela16.png" media="(max-width:767px)">
-            <img src="img/vela/vela16.png" alt="results">
-          </picture>
-          <h2>Refine the Design</h2>
-          <p>
-            With the user testing complete it was time to review the feedback and bring the app to life by creating a beautiful user interface. One of the more important design choices was adding shadows to make the content pop from the background.
-          </p>
-          <picture>
-            <source srcset="img/vela/vela20.png" media="(max-width:767px)">
-            <img src="img/vela/vela20.png" alt="final">
-          </picture>
-          <h1><a href="https://xd.adobe.com/view/cd353a54-266b-4d3d-b54b-f9256f8fb273-9866/" target="_blank">Try it Yourself</a></h1>
-          <h2>Conclusion</h2>
-          <p>
-            After spending countless months working on this app one of the most valuable lessons I learned from this process was to value the feedback from my users and not to take advantage of the low and mid fidelity prototypes. There were stages
-            where I had to iterate new design concepts later on in the project which was frustrating and time consuming. Also for future projects I will also look to analyze more than two competitors to get a feel of the overall market.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <footer id="contact">
-      <div class="container">
-        <h2> Reach Out </h2>
-        <p> If you enjoyed viewing my content and would like to get a hold of me to discuss a potential opportunity. Call: <a href="(+1)132456798">(+1)123456789</a> or contact me via email or through LinkedIn. </p>
-        <div id="icon">
-          <a href="mailto:mario.teo.machado@gmail.com">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" viewBox="0 0 24 24">
-              <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z" />
-            </svg>
-          </a>
-          <a href="https://www.linkedin.com/in/mario-machado-709714136/">
-            <svg xmlns="http://www.w3.org/2000/svg" x="50" y="50" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-              <path
-                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-            </svg>
-          </a>
-          <a href="https://github.com/mjmachad/Portfolio-Site-Mario-Machado">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875
+  <footer id="contact">
+    <div class="container">
+      <h2> Reach Out </h2>
+      <p> If you enjoyed viewing my content and would like to get a hold of me to discuss a potential opportunity. Call: <a href="(+1)132456798">(+1)123456789</a> or contact me via email or through LinkedIn. </p>
+      <div id="icon">
+        <a href="mailto:mario.teo.machado@gmail.com">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" viewBox="0 0 24 24">
+            <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mario-machado-709714136/">
+          <svg xmlns="http://www.w3.org/2000/svg" x="50" y="50" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </a>
+        <a href="https://github.com/mjmachad/Portfolio-Site-Mario-Machado">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875
                 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077
                 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428
-                2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/>
-           </svg>
-          </a>
-        </div>
-        <p> Copyrigh. Mario Machado, 2021</p>
+                2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z" />
+          </svg>
+        </a>
       </div>
-    </footer>
-    <script src="js/scripts.js">
-    </script>
-  </body>
+      <p> Copyrigh. Mario Machado, 2021</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
+  <script src="js/scripts.js"></script>
+</body>
 
-  </html>
+</html>
