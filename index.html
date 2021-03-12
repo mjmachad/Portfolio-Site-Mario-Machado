@@ -9,23 +9,28 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
   <header>
     <div id="me">
       <div class="container">
-        <picture>
-          <source srcset="img/Logo.png" media="(max-width:250px)">
-          <img class="LogoM" src="img/Logo.png" alt="Mario macahdo">
-        </picture>
-        <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="navtoggle" id="myNavtoggle">
+          <picture>
+            <source srcset="img/Logo.png" media="(max-width:1200px)">
+            <img class="LogoM" src="img/Logo.png" alt="Mario macahdo">
+          </picture>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="myfunction()">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="myfunction()"> <i class="fas fa-bars"> </i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </header>
@@ -1067,8 +1072,9 @@
       <p> Copyrigh. Mario Machado, 2021</p>
     </div>
   </footer>
-  <script src="js/scripts.js">
-  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
