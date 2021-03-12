@@ -20,19 +20,36 @@ red	#fa6964	(250,105,100)
 }
 
 .LogoM {
+    width: 125px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  padding-top: 27px;
+  padding-right: 0;
+  right: 0;
+  top: 2px;
+  font-size: 40px;
+}
+
+.navtoggle.responsive li  {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 125px;
+  padding: 10px 0;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
+  text-align: center;
   padding: 0;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -57,8 +74,7 @@ nav>ul>li>a:active {
 
 #me {
   background-color: #333332;
-  text-align: center;
-  padding: 15px 0;
+  padding: 10px 0 5px;
   -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
@@ -75,7 +91,7 @@ nav>ul>li>a:active {
 }
 
 #hero {
-  padding-top: 200px;
+  padding-top: 125px;
 }
 
 #hero h1 {
@@ -149,6 +165,14 @@ h4 {
 
 img {
   width: 100%;
+}
+
+i {
+  color: #eff0ed;
+}
+
+i:hover {
+  color: #cc6540
 }
 
 a {
@@ -269,10 +293,10 @@ a:focus {
    Layour Styling to Vela
 ============================*/
 #vela1 {
-  padding-top: 220px;
+  padding-top: 175px;
   display: inline-block;
   width: 100%;
-  background-color: #1352a1;
+  background-color: #eff0ed;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   /* Sets the font size to 16px */
@@ -280,14 +304,14 @@ a:focus {
   /* Sets the font weight to 500 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #ffffff;
+  color: #333332;
 }
 
 #vela {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
-  background-color: #1352a1;
+  background-color: #eff0ed;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   /* Sets the font size to 16px */
@@ -295,7 +319,7 @@ a:focus {
   /* Sets the font weight to 500 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #ffffff;
+  color: #333332;
 }
 
 #vela1 p {
@@ -344,7 +368,7 @@ Layout for Lingo and You
 Layout for About Page
 =======================*/
 #about {
-  padding-top: 200px;
+  padding-top: 125px;
 }
 
 #about {
@@ -423,10 +447,34 @@ Layout for About Page
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px){
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+  nav > ul {
+    margin: 1em 0;
+  }
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 642px) {
   .LogoM {
     margin-left: 20px;
     float: left;
+  }
+
+  #me{
+    padding: 10px 0 10px;
   }
 
   nav {
