@@ -109,17 +109,17 @@ nav>ul>li>a:active {
   border-bottom: 1px solid #4a4a4a;
 }
 
+#project1 .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
 #project2 .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
 
 #project3 .row {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
-}
-
-#project1 .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
@@ -225,13 +225,13 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #fa6964;
+  color: #1352a1;
   text-transform: uppercase;
-  border: 2px solid #fa6964;
+  border: 2px solid #1352a1;
 }
 
 .button.contact:hover {
-  background-color: #fa6964;
+  background-color: #002a71;
   color: #ffffff;
 }
 
@@ -400,7 +400,17 @@ Layout for About Page
 /* ===============================
  Layout Styling for Footer
 =============================== */
+#contact {
+  background-color: #333332;
+  padding: 5px;
+  color: #eff0ed
+}
+
 #contact h2 {
+  text-align: center;
+}
+
+#contact p {
   text-align: center;
 }
 
