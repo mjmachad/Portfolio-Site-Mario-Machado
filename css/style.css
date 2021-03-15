@@ -176,13 +176,13 @@ i:hover {
 }
 
 a {
-  color: #fa6964;
+  color: #fa6e69;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #cc6540;
+  color: #D78669;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -194,7 +194,7 @@ a:visited {
 
 a:active {
   /* selected link */
-  color: #994c30;
+  color: #D2896E;
 }
 
 a:hover,
