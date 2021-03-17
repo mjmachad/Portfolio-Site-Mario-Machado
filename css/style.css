@@ -195,6 +195,15 @@ a {
   color: #D2896E
 }
 
+#me a:visited{
+  color: #fa6964;
+}
+
+#me a:focus {
+  color: #fa6964;
+}
+
+
 a:visited {
   /* visited link */
   color: #fa6964;
@@ -520,6 +529,13 @@ Medium devices (640px and larger)
   #about {
     padding-top: 150px;
   }
+
+  #about img{
+    width: 65%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* ==============================
@@ -537,4 +553,5 @@ Large devices (1024px or larger)
   .col-lg-7 {
     width: 58.33%;
   }
+
 }
